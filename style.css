@@ -66,6 +66,7 @@
     font-size: var(--sm);
     margin-right: 12px;
   }
+  
   .navbar-shopping-cart {
     position: relative;
   }
@@ -380,4 +381,14 @@
     .mobile-menu{
       display: none;
     }
+  }
+
+    /* Cursor pointer */
+  .navbar-email:hover,
+  .navbar-shopping-cart:hover,
+  .navbar-left ul:hover,
+  .product-card:hover,
+  .menu-Ham:hover,
+  .exit:hover{
+    cursor: pointer;
   }
